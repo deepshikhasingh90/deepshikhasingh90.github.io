@@ -1,0 +1,169 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../.Images/concrete_seamless.png");
+    color: #777777;    
+    height:960px;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* this snippet would set header for all the html file */
+header{
+    background-color:white;
+    margin:0px 0px 20px 0px;
+    border-bottom-style:solid;
+    border-bottom-color: #cccccc;
+    overflow-y:auto;
+    max-width:100%;
+}
+/* defines the container for contend to be centered in te header, also applies to the main body contend. */
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* defines the unique feature for h1  */
+#name-section{
+    background-color:#4aaaa5;
+    color:white;
+    display:inline-block;
+    padding:26px;
+    margin-bottom: 0px;
+}
+/* this section sets style for the naigation links. Style would be same for contact and portfolio as well */
+ul{
+    list-style-type: none;
+    margin-top:25px;
+    padding:0px;
+}
+.nav-links{
+    float:right;
+}
+li{
+    display:inline;
+}
+a{
+    text-decoration:none;
+    color: #777777;
+    padding:1px 2px;
+}
+/* Main body style would be same for index.html, contact.html,portfolio.html file */
+#main-section{
+    max-width:960px;
+    text-align:center;
+    margin-left:auto ;
+    margin-right:auto;
+    margin-bottom:30px;
+    border-width: thick;
+    padding:32px;
+    border-color:#dddddd;
+    border-style: solid;
+    background-color: white;
+    overflow:auto;
+    margin-top: 15px;
+}
+/* defines unique feature for the content header h1 */
+#content-headline{
+    color:#4aaaa5;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    margin:0px 0px 5px 0px;
+    text-align:left;
+}
+hr{
+    border-color:#cccccc;
+    margin-bottom:16px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+}
+#MyImage{
+    float:left;
+    margin:0px 0px 16px 0px;
+    margin-right:20px;
+}
+/* this snippet would set footer style for all the html file*/
+#Content-footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+    border-top: 10px;
+    border-color:#4aaaa5;
+    border-top-style: solid;
+}
+
+/* form element styling begins here */
+.contact-section{
+    float: left;
+} 
+.form-information{
+    color: #777777;
+    margin-bottom: 4px;
+    float:left;
+}
+.textfield {
+        font-size: 12px;
+        width: 100%;
+        height: 30px;
+        padding: 10px;
+        border: 1px;
+        border-color: #777777;
+        border-style:solid;
+        margin-bottom:20px;
+        border-width:thin;
+}
+#messagebox {
+    width: 100%;
+    height: 150px;
+    border: 1px;
+    border-color: #777777;
+    border-style: solid;
+    box-sizing: border-box;
+    border-width:thin;
+}
+.submit{
+    width: 120px;
+    background-color: #4aaaa5;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 12px;
+    margin-top: 22px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    float:left;
+}
+/* portfolio style content starts here */
+.portfolio img {
+     width: 120px;
+     float:left;
+     margin-left:0;
+}
+.portfolio {
+    width: 27%;
+    margin: 30px;
+    float: left;
+    left:-29px;  
+    position: relative;
+}
+.portfolio span {
+    position: absolute;
+    left:0px;
+    right:0px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    height:30px;
+    width:120px; 
+    bottom:10px;
+}
